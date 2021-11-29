@@ -9,7 +9,7 @@ if answer.lower()=='Ja':
         score += 1
         print('Richtig!')
     else:
-        print('Falsch :(')
+        print('Leider Falsch :(')
  
  
     answer=input('Frage 2: Wie hieß der erste deutsche Bundeskanzler? ')
@@ -17,16 +17,18 @@ if answer.lower()=='Ja':
         score += 1
         print('Richtig!')
     else:
-        print('Falsch :(')
+        print('Leider Falsch :(')
  
     answer=input('Frage 3: Wie lautete der frühere Name Istanbul?')
     if answer.lower()=='Konstantinopel':
         score += 1
         print('Richtig!')
     else:
-        print('Falsch :(')
+        print('Leider Falsch :(')
+
+# Fragen können im Code beliebig angepasst werden!
  
 print('Danke, dass du mitgespielt hast! Du hast ',score,"richtig beantwortet!")
 mark=(score/total_questions)*100
 print('Marks obtained:',mark)
-print('Tschüss!')
+print('Auf Wiedersehen!')
